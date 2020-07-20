@@ -7,4 +7,6 @@ def func(var_a, var_b):
         return '='
     elif var_a < var_b:
         return '<'
-print(func(var_a, var_b))
+
+
+print(func(5, "2"))
