@@ -1,10 +1,12 @@
-n = int (input())
+n = int(input())
 suma = 0
 while n > 0:
     digit = n % 10
     suma = suma + digit
     n = n // 10
-print ("сумма:", suma)
+
+
+print("сумма:", suma)
 
 
 
