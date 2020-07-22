@@ -3,10 +3,11 @@ from . import div, add, mul, sub
 
 if __name__ == '__main__':
 
-    a = (input())
-    b = (input())
+    a, b = (input())
     while not a or b .isdigit():
-        a = (input("not correct"))
-        b = (input("not correct"))
+        a, b = (input("not correct"))
 
-
+div.div(a, b)
+add.add(a, b)
+mul.mul(a, b)
+sub.sub(a, b)
