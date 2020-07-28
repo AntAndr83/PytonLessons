@@ -1,7 +1,4 @@
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
-c = [x for x in range(a, b) if x % 5 == 0]
-
-print(c)
-
-
+vowels = 'aeiouy'
+word = list(input("Введите буквы:").lower())
+a = len([i for i in word if i in vowels])
+print(a)
