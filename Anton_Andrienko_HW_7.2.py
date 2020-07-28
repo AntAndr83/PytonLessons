@@ -1,4 +1,5 @@
 def converter(string, separator):
+    
 
 
 my_str = input('String')

@@ -1,11 +1,12 @@
-n = input("Введите трехзначное число:")
+n = int(input())
+suma = 0
+while n > 0:
+    digit = n % 10
+    suma = suma + digit
+    n = n // 10
 
-n = int(n)
-s = str(n)
 
-a = int(s[0])
-b = int(s[1])
-c = int(s[2])
+print("сумма:", suma)
 
-print("Сумма цифр числа:", a + b + c)
+
 
